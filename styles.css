@@ -1,0 +1,147 @@
+/*-----------------sidebar--------------------*/
+
+
+div{
+    box-sizing: border-box;
+}
+div.a4 {
+    margin: 5mm auto;
+    height: 29.7cm;
+    width: 21cm;
+    display: flex;
+}
+div.sidebar{
+    height: 100%;
+    width: 35%;
+    background-color: #3B3B3D;
+    background-image: url('photoCV.jpg') ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    padding: 430px 20px 0px 20px;
+}
+div.mainContent{
+    height: 100%;
+    width: 65%;
+    background-color: #EAEAEC;
+}
+div.aboutMe{
+    font-family: 'Open Sans', sans-serif;
+    
+    color: #EAEAEC;
+    
+}
+.aboutMe>h3{
+    text-transform: uppercase;
+}
+
+.aboutMe>p{
+    text-align: justify;
+    font-size: 13px;
+}
+.sidebar>vr{
+    border: none; 
+    background-color: #EAEAEC; 
+    height: 1px; 
+    width: 100%;
+}
+
+.myLinks{
+    font-family: 'Open Sans', sans-serif;
+    color: #EAEAEC;
+}
+
+.myLinks>h3{
+    text-transform: uppercase;
+}
+
+.myLinks>ul{
+    list-style-type: none;
+}
+.listLinks>li>a{
+    text-decoration: none;
+    color: #EAEAEC;
+    margin-left: -28px;
+    font-size: 13px;
+}
+
+.skills{
+    font-family: 'Open Sans', sans-serif;
+    color: #EAEAEC;
+}
+.skills>h3{
+    text-transform: uppercase;
+}
+.skills>p{
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+#progressbar {
+    background-color: black;
+    border-radius: 2px;
+    padding: 1px;
+  }
+  #prHTML {
+    background-color: #EAEAEC;
+    width: 90%;
+    height: 5px;
+    border-radius: 2px;
+  }
+  #prJS {
+    background-color: #EAEAEC;
+    width: 50%;
+    height: 5px;
+    border-radius: 2px;
+  }
+
+  .lang{
+    font-family: 'Open Sans', sans-serif;
+    color: #EAEAEC;
+  }
+  .lang>h3{
+    text-transform: uppercase;
+  }
+  .lang>ul>li{
+      display: inline;
+      list-style-type: decimal-leading-zero ;
+      background-image: url(global.png);
+      background-repeat: no-repeat;
+      padding: 0px 20px;
+      background-position: 0px 3px;
+  }
+
+  /*-----------------MAINCONTENT--------------------*/
+
+  .mainContent{
+    display: flex;
+    flex-direction: column;
+    padding:20px 20px;
+  }
+ .header{
+     display: flex;
+     justify-content: space-around;
+     
+     color:#3B3B3D;
+     font-family: 'Open Sans', sans-serif;
+ }
+ .headerName>h1{
+    text-transform: uppercase;
+    margin-bottom: 0px;
+ }
+ .headerName>p{
+     margin-top: 0px;
+     font-size: 14px;
+ }
+ .headerAdress{
+     padding-top: 27px;
+     text-align: right;
+     font-size: 14px;
+ }
+ .mainContent>vr{
+    border: none; 
+    background-color:#3B3B3D;; 
+    height: 1px; 
+    width: 100%;
+}
+  
