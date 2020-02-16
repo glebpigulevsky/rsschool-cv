@@ -1,1 +1,2 @@
-# https://github.com/CasperCarver/rsschool-cv/cv.md
+
+# https://CasperCarver.github.io/rsschool-cv/
