@@ -1,2 +1,2 @@
 
-# https://CasperCarver.github.io/rsschool-cv/
+# https://glebpigulevsky.github.io/rsschool-cv/
